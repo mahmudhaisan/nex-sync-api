@@ -1,0 +1,17 @@
+{
+    "name": "mahmud/sync-api",
+    "description": "Sync Api Plugin",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "authors": [{
+        "name": "Mahmud Haisan"
+    }],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Sync\\Api\\": "includes/"
+        },
+        "files": []
+    }
+}
